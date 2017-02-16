@@ -1,0 +1,24 @@
+{
+  "types": [
+    {
+      "name": "Person",
+      "namespace": "io.github.ajatix",
+      "type": "record",
+      "target": "Scala",
+      "fields": [
+        {
+          "name": "id",
+          "type": "io.github.ajatix.Globals.PersonId"
+        },
+        {
+          "name": "name",
+          "type": "String"
+        },
+        {
+          "name": "age",
+          "type": "int"
+        }
+      ]
+    }
+  ]
+}
